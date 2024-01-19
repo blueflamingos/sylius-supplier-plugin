@@ -58,7 +58,7 @@ class Supplier implements SupplierInterface
         $this->enabled = $enabled;
     }
 
-    public function __toString(): ?string
+    public function __toString()
     {
         return (string) $this->getName();
     }

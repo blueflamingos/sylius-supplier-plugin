@@ -2,7 +2,7 @@ sylius_supplier_plugin_admin_supplier:
     resource: |
         alias: sylius_supplier_plugin.supplier
         section: admin
-        templates: SyliusAdminBundle:Crud
+        templates: "@SyliusAdmin\\Crud"
         redirect: update
         grid: sylius_supplier_plugin_admin_supplier
         vars:

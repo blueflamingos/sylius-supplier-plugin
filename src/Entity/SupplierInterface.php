@@ -24,5 +24,5 @@ interface SupplierInterface extends ResourceInterface
 
     public function setEnabled(?bool $enabled): void;
 
-    public function __toString(): ?string;
+    public function __toString();
 }
